@@ -14,3 +14,22 @@ This puts you in control of how your application operates in different scenarios
 > Sometimes IoC is also called Dependency Injection (DI).
 > But this is misleading since not all frameworks achieve IoC through DI.
 > In Spring, this is true. Other frameworks may use different techniques.
+
+### API Contracts and JSON
+**API Contract**  
+patterns for capturing agreed upon API behavior in documentation and code  
+REST API and RESTful API are forms of API Contracts.  
+
+### Testing First
+Normally, tests are written after implementation to guard against regressions.  
+
+**Test-Driven Development (TDD)**  
+Write tests before implementing the code.  
+Developers focus on what the code should do, not how it is done.  
+Guides the developer to write minimum code to pass the test.  
+
+### Red, Green, Refactor
+**TDD Cycle**
+1. Write a failing test (Red)
+2. Write the minimum code to pass the test (Green)
+3. Refactor the code to make it better
